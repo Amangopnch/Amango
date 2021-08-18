@@ -1,0 +1,50 @@
+* {
+    margin: 1%;
+    padding: 2%;
+}
+ /* body {
+    background-color: #1d1d1d;    */
+
+.header {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+
+} 
+    .box{
+        width: 300px;
+        height: 300px;
+        background: aqua;
+        animation: ergeh 500ms linear infinite; 
+
+    }
+    @keyframes ergeh {
+        50% {
+            transform: rotateX(0);
+            background: red;
+        }
+        100% {
+            transform: rotateX(360deg);
+            background:greenyellow;
+        }
+        
+    }
+    .box:hover {
+        transform: rotate(360deg) scale(2);
+    
+    }
+    .container .wrap { 
+        width: 300px;
+        height: 500px;
+        background-color: blueviolet;
+        transform: rotateY(30deg)
+    }
+
+   
+    
